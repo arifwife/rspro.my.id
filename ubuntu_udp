@@ -6,7 +6,7 @@ PASS='smart444_rspro';
 DBNAME='smart444_rspro';
 PORT_TCP='5666';
 PORT_UDP='5666';
-SUB_DOMAIN=uttl.rspro.my.id
+SUB_DOMAIN=tbph.rspro.my.id
 MYIP=$(wget -qO- icanhazip.com);
 server_ip=$(curl -s https://api.ipify.org)
 timedatectl set-timezone Asia/Riyadh
